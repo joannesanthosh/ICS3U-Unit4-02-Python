@@ -25,7 +25,7 @@ def main():
                 factorial = factorial * loop_counter
             print("{0}! = {1}.".format(integer, factorial))
         else:
-            print("{0}is not a positive integer.".format(integer))
+            print("{0} is not a positive integer.".format(integer))
     except ValueError:
         print("{0} is not an integer".format(int_as_string))
     finally:
